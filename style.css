@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.d-sm-none {
+    display: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(217, 215, 215);
+    box-shadow: 0px 0px 20px rgba(39, 51, 53, 0.82);
+}
+
+nav {
+    margin: auto;
+    width: 1120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-t {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-btn {
+    background: transparent;
+    border: 1px solid #43AAFF;
+    border-radius: 100px;
+    width: 200px;
+    height: 55px;
+    margin-top: 5px
+}
+.nav-btn:hover{
+    cursor: pointer;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: #4B5258;
+}
+
+/*------------------------------ header end -------------------------------------*/
+.ispolnim {
+    margin-top: 150px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #4B5258;
+}
+.sec8{
+    margin-bottom: 60px;
+}
+.posmot {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #959A9D;
+    margin-top: 10px;
+    margin-bottom: 54px;
+}
+
+.ardi {
+    margin: auto;
+    width: 1024px;
+    height: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+}
+
+.vana {
+    padding: 10px;
+}
+
+.ardi_text {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #4B5258;
+    margin-top: 61px;
+    margin-bottom: 25px;
+}
+
+.oop {
+    margin-left: 49px;
+}
+
+.listi {
+    list-style: none;
+}
+
+.itemi {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    font-size: 14px;
+    color: #959A9D;
+    margin-bottom: 8px;
+}
+
+.itemi_span {
+    color: #4B5258;
+}
+
+.btn88 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    color: #43AAFF;
+    border: 1px solid #43AAFF;
+    border-radius: 100px;
+    width: 206px;
+    height: 60px;
+    background-color: transparent;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.car-card {
+    background: #43AAFF;
+    width: 1024px;
+    height: 487px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+
+.avto-img {
+    padding-top: 105px;
+    padding-left: 50px;
+}
+
+.zakashit {
+    padding-top: 49px;
+    padding-left: 59px;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 36px;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.car-btn {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 275px;
+    height: 70px;
+    background: #FFC24D;
+    box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+    margin-left: 55px;
+    border: none;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.ili {
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 58px;
+}
+
+.tg-btn {
+    margin-top: 14px;
+    width: 125px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 24px;
+}
+
+.car-nomer {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 55px;
+}
+
+.pn {
+
+    font-family: 'Mont';
+    font-style: normal;
+    margin-left: 31px;
+    font-size: 14px;
+}
+
+
+#hhh {
+    margin-left: 55px;
+    margin-right: 9px;
+}
+
+/* -------------------------------Footer----------------- */
+footer {
+    width: 1120px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+.long {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_gr {
+    display: flex;
+}
+
+.soft {
+    font-weight: 600;
+    font-size: 14px;
+    color: #43AAFF;
+}
+
+.berej {
+    font-weight: 600;
+    font-size: 10px;
+    color: #959A9D;
+}
+
+.atext {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.end {
+    margin-top: 28px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: right;
+    color: #4B5258;
+}
+
+.end:hover {
+    cursor: pointer;
+    color: #43AAFF;
+    transition: 0.1s;
+}
+
+/* --------------------------------Responsive----------------- */
+@media screen and (max-width: 575px) {
+    .log {
+        display: flex;
+        padding: 10px;
+    }
+
+    .display {
+        display: flex;
+    }
+
+    .nav-btn {
+        font-weight: 600;
+        font-size: 8px;
+        color: #4B5258;
+        background: transparent;
+        border: 1px solid #43AAFF;
+        border-radius: 100px;
+        width: 126px;
+        height: 39px;
+        margin-top: 28px;
+        margin-left: 25px;
+    }
+
+    .ispolnim {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: center;
+        color: #4B5258;
+    }
+
+    .posmot {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 110%;
+        text-align: center;
+        color: #959A9D;
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+
+    .ardi {
+        margin: auto;
+        width: 85%;
+        height: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        display: block;
+    }
+
+    .vana {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .oop {
+        margin-left: 15px;
+    }
+
+    .ardi_text {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        color: #4B5258;
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+
+    .itemi {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        font-size: 10px;
+        color: #959A9D;
+        margin-bottom: 2px;
+    }
+
+    .btn88 {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 8px;
+        text-align: center;
+        color: #43AAFF;
+        border: 1px solid #43AAFF;
+        border-radius: 100px;
+        width: 96px;
+        height: 30px;
+        background-color: transparent;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+
+    /* ----------------------------------------Header Res end--------------------------------- */
+    .car-card {
+        background: #43AAFF;
+        width: 90%;
+        height: 100%;
+        border-radius: 20px;
+        margin: auto;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .avto-img {
+        display: none;
+    }
+
+    .zakashit {
+        padding-top: 26px;
+        padding-left: 29px;
+        font-weight: 600;
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .car-btn {
+        font-weight: 600;
+        font-size: 9px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 90%;
+        height: 37px;
+        background: #FFC24D;
+        box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+        border-radius: 100px;
+        margin-left: 5%;
+        border: none;
+        margin-bottom: 14px;
+        cursor: pointer;
+    }
+
+    .ili {
+        font-weight: 600;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-left: 20px;
+    }
+
+    #hhh {
+        margin-left: 5%;
+    }
+
+    .tg-btn {
+        margin-top: 14px;
+        width: 90%;
+        margin-left: 5%;
+        height: 47px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 12px;
+    }
+
+    .car-nomer {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .pn {
+        font-family: 'Mont';
+        font-style: normal;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+
+    /* ---------------------Footer Res--------------------- */
+    .d-none {
+        display: none;
+    }
+
+    .d-block {
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .logo_gr {
+        justify-content: center;
+    }
+
+    .end {
+        text-align: center;
+    }
+
+    .lll {
+        text-align: center;
+    }
+}
